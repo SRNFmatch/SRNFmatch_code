@@ -1,7 +1,7 @@
 SRNFmatch
 =========
 
-Descrition
+Description
 -----------
 
 This Python package provides a set of tools for the comparison, matching and interpolation of triangulated surfaces within the elastic shape analysis setting. It allows specifically to solve the geodesic matching and distance computation problem between two surfaces with respect to the square root normal field (SRNF) or square root curvature field (SRCF) metric. Such distances can in turn be used for a variety of tasks such as shape classification, clustering, regression... Unlike previous works on the topic, our variational approach involves relaxing the matching constraint based on a varifold discrepancy term which makes the method flexible to deal with discrete surfaces of variable sampling and/or topology. SRNFmatch also provides functions to approximate the inverse of an SRNF map or to estimate the geodesic path between a surface and its deformation, as well as various utilities to export and visualize results.    
