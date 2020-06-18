@@ -43,7 +43,7 @@ del iren, renWin
 
 # Compute geodesic 
 match = [f1,FS]
-Geod = matching.SRNF_geodesic(source,match,5,300)
+Geod = matching.SRNF_geodesic(source,match,5,10000)
 
 # Plot geodesic 
 iren, renWin = input_output.plotGeodesic(Geod,FS,FunS)
