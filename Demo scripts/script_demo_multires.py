@@ -44,7 +44,7 @@ input_output.close_vtk_interactor(iren)
 del iren, renWin
 
 # Compute geodesic 
-Geod = matching.SRNF_geodesic(match_source,match_target,4,500)
+Geod = matching.SRNF_geodesic(match_source,match_target,4,10000)
 
 # Plot geodesic 
 iren, renWin = input_output.plotGeodesic(Geod,Tri[2])
