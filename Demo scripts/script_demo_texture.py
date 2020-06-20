@@ -33,7 +33,7 @@ parameters = {'weight_MCV':0,'weight_coef_dist_T': 10**3,\
 f1,En,Dic = matching.StandardMatching(source,target,target_init,parameters)
 
 # Compute estimated squared SRV distance
-dist = matching.SRVF_dist_square([VS,FS],[f1,FS])
+dist = matching.SRNF_dist_square([VS,FS],[f1,FS])
 
 # Plot matching result (press q to exit window)
 match=[f1,FS,FunS]
