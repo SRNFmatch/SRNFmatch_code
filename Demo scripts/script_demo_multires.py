@@ -36,7 +36,7 @@ match_source=[f0[1],Tri[1]]
 match_target=[f1[1],Tri[1]]
 
 # Compute estimated squared SRV distance
-dist = matching.SRVF_dist_square([f0[1],Tri[1]],[f1[1],Tri[1]])
+dist = matching.SRNF_dist_square([f0[1],Tri[1]],[f1[1],Tri[1]])
 
 # Plot matching result (press q to exit window)
 iren, renWin = input_output.plotMatchingResult(source,match_target,target,'Symmetric',match_source)
